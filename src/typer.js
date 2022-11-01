@@ -95,7 +95,7 @@ Typer.js Plugin v1.2.0
 
       if (settings.autoStart) {
         // add typed element
-        t.append("<span class=\"typed\">"+stringIndex+"</span>");
+        t.append("<span class=\"typed"+stringIndex+"\"></span>");
 
         if (settings.useCursor) {
           // add cursor element
